@@ -1,7 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 text-gray-500 text-center py-4 text-sm mt-8" style={{ fontFamily: 'Geologica, sans-serif' }}>
-      © 2025 NB CREA S.A.U | Confidencial
+    <footer className="bg-blue-950 text-white py-6">
+      <div className="max-w-7xl mx-auto px-4 text-center">
+        <p className="text-sm">
+          © {new Date().getFullYear()} NB CREA S.A.U Todos los derechos reservados | Av. Belgrano 1415 Mendoza, Argentina.
+        </p>
+      </div>
     </footer>
   );
 };

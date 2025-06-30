@@ -1,12 +1,10 @@
 const Header = () => {
   return (
-    <header className="bg-white shadow-md py-6 px-4">
-      <h1 className="text-4xl font-geo font-bold text-center text-purple-500" style={{ fontFamily: 'Geologica, sans-serif' }}>
-        NB CREA SAU
-      </h1>
-      <h3 className="text-xl pt-3 font-geo font-bold text-center text-purple-500" style={{ fontFamily: 'Geologica, sans-serif' }}>
-        Política de Privacidad
-      </h3>
+    <header className="bg-gradient-to-r from-blue-950 to-purple-500 text-white py-6 shadow-md">
+      <div className="max-w-7xl mx-auto px-4 text-center">
+        <h1 className="text-3xl font-bold font-geo">NB CREA SAU</h1>
+        <p className="text-lg mt-1 font-geo">Política de Privacidad</p>
+      </div>
     </header>
   );
 };
